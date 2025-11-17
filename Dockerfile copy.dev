@@ -1,0 +1,7 @@
+FROM ghcr.io/usace-cloud-compute/cc-tiledb-python:latest
+
+# Got to get some fortran
+RUN apt-get update && apt-get install -y libgfortran5
+
+RUN pip install hecdss
+
