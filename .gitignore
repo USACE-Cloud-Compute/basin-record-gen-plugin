@@ -1,6 +1,6 @@
 .env
 cc-py-sdk
-data
+/data
 
 *.basin
 *.control
